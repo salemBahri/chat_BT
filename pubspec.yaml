@@ -1,0 +1,30 @@
+name: bt_chat
+description: Flutter Bluetooth Chat - MVC - No Network
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bluetooth_serial: ^0.4.0   # Classic BT phone-to-phone
+  provider: ^6.1.2                    # State Management (MVC)
+  shared_preferences: ^2.2.3          # Local storage
+  image_picker: ^1.1.2                # Profile image
+  intl: ^0.19.0                       # Date formatting
+  uuid: ^4.5.0                        # Unique IDs
+  path_provider: ^2.1.4               # File paths
+  permission_handler: ^11.3.1         # BT permissions
+  crypto: ^3.0.3                      # Password hashing
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
