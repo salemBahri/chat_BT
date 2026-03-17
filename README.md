@@ -1,16 +1,19 @@
-# bt_chat
+# 📱 BT Chat — Bluetooth Chat App
 
-A new Flutter project.
+A Flutter chat application that works **completely offline** using **Classic Bluetooth (SPP)**,
+with local user authentication and profile management. No internet, no server, no cloud.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Register / Login** — local accounts with SHA-256 hashed passwords
+- 👤 **Profile** — update name, birthday, and profile image
+- 📡 **Bluetooth Chat** — real-time messaging between two paired Android devices
+- 💬 **Chat UI** — WhatsApp-style message bubbles with timestamps
+- 🔄 **Auto Handshake** — remote user info exchanged automatically on connect
+- 💾 **Persistent Session** — stay logged in between app restarts
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🏗️ Architecture — MVC + Provider
